@@ -6,20 +6,46 @@ html {
   /*display: flex;
   flex-wrap: nowrap;
   align-items: center; */
-
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: black;
 }
 
 hr{
-  border-top: orange 2px solid;
-  width: 5%;
+  border-top: #e76838 2px solid;
+  width: 12%;
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 .btn{
-  background-color: orange;
-  border-color: orange;
+  background-color: #e76838;
+  border-color: #e76838;
   line-height: 1;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn:hover{
+  background-color: orange;
+  border-color:orange;
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.startup {
+  background-position: center;
+  background-image: url("header.jpg");
+  background-size: cover;
+  height: 100%;
 }
